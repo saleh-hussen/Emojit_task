@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.white-color{
+    color: #fff;
+}
+.gold-color{
+    color: #B38958;
+}
+.black-color{
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+.p-relative{
+    position: relative;
+}
+.text-right{
+    text-align: right;
+}

@@ -1,0 +1,116 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: 100% 100%;
+  background-position-y: 10%;
+}
+.navbar-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 50px 100px;
+}
+.navbar-overlay img {
+  height: 50px;
+}
+.navbar-overlay .content {
+  margin-top: 12%;
+}
+.navbar-overlay .content h1 {
+  letter-spacing: 29.16px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  font: normal normal bold 81px/89px Palatino;
+}
+.navbar-overlay .content p {
+  font: normal normal normal 24px/38px Kefa;
+}
+.navbar-overlay .content a {
+  font: normal normal bold 24px/27px Kefa;
+  padding: 15px 25px;
+}
+.header-footer {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  right: 100px;
+}
+.navbar-overlay .social-links a {
+  color: #fff;
+  padding: 0 20px;
+  font-size: 25px;
+}
+.navbar-overlay .social-links a:first-child {
+  padding-left: 0;
+}
+.navbar-overlay .controls a {
+  color: #fff;
+  border: 3px solid #6d5639;
+  border-radius: 50%;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 25px;
+}
+.menu-nav {
+  margin-top: 10%;
+}
+.menu-nav .links a {
+  font: normal normal bold 54px/62px Kefa;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 20px 0;
+}
+.menu-nav .links a i {
+  padding-right: 13px;
+}
+.info * {
+  color: #fff;
+}
+.info {
+  display: flex;
+  align-items: flex-end;
+  height: 60vh;
+}
+.info-details div {
+  font: normal normal normal 26px/40px Kefa;
+}
+.info-details div img {
+  height: 100%;
+}
+.info-details .contact div {
+  margin: 0;
+}
+.info .navigate{
+    color: #B38958;
+}
+.info .navigate i{
+    color: #B38958;
+}
+@media only screen and (max-width: 600px) {
+  .menu-nav .links a {
+    font: normal normal bold 25px Kefa;
+  }
+  .navbar-overlay{
+      padding: 20px;
+  }
+  .info-details div{
+    font: normal normal normal 18px Kefa;
+  }
+  .info{
+      height: auto;
+      margin-top: 25px;
+  }
+  .header{
+      height: 50vh;
+  }
+  .menu-img{
+      height: 100vh;
+  }
+  .info-details{
+    display: none;
+  }
+}

@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "734b5cdd-ec4b-43d3-9d4f-20bf5dd3c075"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/owl.carousel/dist/assets/owl.carousel.min.css",  
+              "./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" ,
+              "src/all.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "src/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
